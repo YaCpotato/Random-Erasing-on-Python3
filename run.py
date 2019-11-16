@@ -102,7 +102,6 @@ if __name__ == '__main__':
     magnitude = int(np.random.rand() * 10)
     t_width = int(musk_target_one_width/10) * magnitude / sample_img.shape[1]
     t_height = int(musk_target_one_height/10) * magnitude / sample_img.shape[0]
-
     #i=0
     for img in x_train:
         img= randomErasing(img,erasing_prob = 0.5, sl = t_width, sh = t_height, r1 = 0.3)

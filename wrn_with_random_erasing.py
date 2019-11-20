@@ -70,7 +70,7 @@ for img in Xtr:
 model = model()
 model.compile(optimizers.SGD(decay=1e-4), 'categorical_crossentropy', ['accuracy'])
 start = time.time()
-result = model.fit(Xtr,Ytr,batch_size=128,epochs=50,verbose=2,validation_split=0.1)
+result = model.fit(Xtr,Ytr,batch_size=128,epochs=100,verbose=2,validation_split=0.1)
 end = time.time() - start
 print(end)
 print('--------')

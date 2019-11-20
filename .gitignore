@@ -2,3 +2,4 @@ rep/
 .vscode/
 __pycache__
 wrncheck/
+plotgraph.py

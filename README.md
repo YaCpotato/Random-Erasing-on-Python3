@@ -32,3 +32,17 @@ Thanks for [Zhun Zhong](https://github.com/zhunzhong07),[Liang Zheng](http://lia
 
 
 [YaCpotato](https://github.com/YaCpotato)
+
+# My Results
+
+## ENV
+* HARDWARE:Tesla V100 * 4
+* Python3.5.6
+* Model: WideResNet28-10
+* batch_size: 128
+* epochs: 100
+
+![ResultImage1](./githubREADMEusedImages/no_re.png)
+![ResultImage2](./githubREADMEusedImages/re.png)
+
+# あんまり変わってない、、、なんでぇ！？

@@ -1,3 +1,6 @@
+"""
+Random Erasingで前処理してから　WideResNet28-10で学習する
+"""
 import tensorflow as tf
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True

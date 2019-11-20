@@ -135,11 +135,12 @@ if __name__ == '__main__':
 
 
     model = model()
-    model.fit(x_train, y_train, batch_size=10, epochs=1, validation_split=0.1)
+    result = model.fit(x_train, y_train, batch_size=128, epochs=100, validation_split=0.1)
     pred = model.predict(x_test)
     pred = np.argmax(pred, axis=1)
     Y = np.argmax(y_test,axis=1)
     score = model.evaluate(x_test, y_test)
+    print(result.history)
     print('Test loss:', score[0])
     print('Test accuracy:', score[1])
     print(confusion_matrix(pred,Y))

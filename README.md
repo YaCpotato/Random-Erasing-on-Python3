@@ -1,4 +1,3 @@
-## now active 2019/11/16
 # Random Erasing re-Imprement on Python3.7
 ===============================================================
 
